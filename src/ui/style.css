@@ -284,6 +284,9 @@ header.top h1 {
   justify-content: center;
   touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  user-select: none;
+  -webkit-user-select: none;
 }
 .cell.last {
   background: color-mix(in srgb, var(--board) 60%, var(--sel));

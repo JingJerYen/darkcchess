@@ -186,6 +186,7 @@ export function mountApp(root: HTMLElement): void {
       cells.push(b);
     }
   }
+  boardEl.addEventListener('contextmenu', (e) => e.preventDefault());
   boardEl.appendChild(document.createElement('div'));
   for (let c = 0; c < 8; c++) {
     const lab = document.createElement('div');
